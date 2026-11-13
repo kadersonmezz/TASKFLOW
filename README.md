@@ -27,21 +27,23 @@ PUT /api/tasks/:id – Updates an existing task.
 DELETE /api/tasks/:id – Deletes a task.
 
 **Installation and Running**
+**Installation and Running**
 
-First, download the project and open its folder in the terminal. Install the required packages by running:
+First, clone the project from GitHub and open the project folder:
 
-```bash
+git clone https://github.com/kadersonmezz/TASKFLOW.git
+
+cd TASKFLOW
+
+Install the required packages:
+
 npm install
-```
 
-After the installation is complete, start the server with:
+After the installation is complete, start the server:
 
-```bash
 node server.js
-```
 
 The server runs on http://localhost:3000.
-
 **Testing**
 
 I used Postman to test the API. I checked whether tasks could be created, listed, viewed, updated and deleted successfully. I also tested how the system responds when a task cannot be found or when a task is created without a title.
